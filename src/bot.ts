@@ -11,7 +11,9 @@ import InlineQueryComposer from "src/composer/inlineQuery.ts";
 import CallbackQueryComposer from "src/composer/callbackQuery.ts";
 
 export const bot = new Bot<Context>(env.BOT_TOKEN);
-export const i18n = new I18n<Context>({ directory: "locales" });
+export const i18n = new I18n<Context>({ defaultLocale: "en" });
+
+await i18n.loadLocalesDir("locales");
 
 bot.use(i18n);
 bot.use(limit());
