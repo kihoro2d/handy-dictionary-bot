@@ -1,0 +1,17 @@
+{
+  "imports": {
+    "src/": "./src/",
+
+    "http/": "https://deno.land/std@0.171.0/http/",
+    "dotenv/": "https://deno.land/std@0.171.0/dotenv/",
+    "envalid/": "https://deno.land/x/envalid@0.1.2/",
+    "grammy/": "https://deno.land/x/grammy@v1.13.0/",
+    "grammy_i18n/": "https://deno.land/x/grammy_i18n@v1.0.1/",
+    "grammy_parse_mode/": "https://deno.land/x/grammy_parse_mode@1.5.0/",
+    "grammy_ratelimiter/": "https://deno.land/x/grammy_ratelimiter@v1.1.6/",
+    "grammy_transformer_throttler/": "https://deno.land/x/grammy_transformer_throttler@v1.2.1/",
+
+    "deepl-node": "npm:deepl-node@1.7.2",
+    "urban-dictionary": "npm:urban-dictionary@3.0.2"
+  }
+}

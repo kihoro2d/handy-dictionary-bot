@@ -1,0 +1,7 @@
+{
+  "deno.enable": true,
+  "deno.importMap": "import_map.json",
+  "deno.inlayHints.variableTypes.enabled": false,
+  "deno.inlayHints.parameterTypes.enabled": false,
+  "deno.inlayHints.functionLikeReturnTypes.enabled": false
+}
