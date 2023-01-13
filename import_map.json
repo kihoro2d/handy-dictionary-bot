@@ -11,7 +11,7 @@
     "grammy_ratelimiter/": "https://deno.land/x/grammy_ratelimiter@v1.1.6/",
     "grammy_transformer_throttler/": "https://deno.land/x/grammy_transformer_throttler@v1.2.1/",
 
-    "deepl-node": "npm:deepl-node@1.7.2",
-    "urban-dictionary": "npm:urban-dictionary@3.0.2"
+    "deepl-node": "https://esm.sh/deepl-node@1.7.2",
+    "urban-dictionary": "https://esm.sh/urban-dictionary@3.0.2"
   }
 }
