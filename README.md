@@ -19,3 +19,7 @@ cd handy-dictionary-bot
 cp .env.example .env
 deno task dev
 ```
+
+## Set Webhook
+
+`https://api.telegram.org/bot<TOKEN>/setWebhook?url=<APP_URL>`
