@@ -1,9 +1,9 @@
 # HandyDictionaryBot
 
 [Telegram Bot](https://t.me/HandyDictionaryBot) to get word definitions from
-[Urban Dictionary](https://www.urbandictionary.com)\
-with the ability to translate definitions and examples using
-[DeepL API](https://www.deepl.com/pro-api).
+[Urban Dictionary](https://www.urbandictionary.com).
+<!-- with the ability to translate definitions and examples using -->
+<!-- [DeepL API](https://www.deepl.com/pro-api). -->
 
 ## Running Locally
 

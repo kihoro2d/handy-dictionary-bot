@@ -33,7 +33,7 @@ composer.on("message").command("random", async (ctx) => {
 
   await ctx.reply(ctx.t("result.word-detail", result as any), {
     reply_markup: keyboard
-      .text(ctx.t("button.transl"), `transl:${result.defid}`).row()
+      // .text(ctx.t("button.transl"), `transl:${result.defid}`).row()
       .text(ctx.t("button.delete"), "delete"),
   });
 });
@@ -56,7 +56,7 @@ composer.on("message").command("todays", async (ctx) => {
 
   await ctx.reply(ctx.t("result.word-detail", result as any), {
     reply_markup: keyboard
-      .text(ctx.t("button.transl"), `transl:${result.defid}`).row()
+      // .text(ctx.t("button.transl"), `transl:${result.defid}`).row()
       .text(ctx.t("button.delete"), "delete"),
   });
 });
@@ -84,7 +84,7 @@ composer.on("message:text", async (ctx) => {
   await ctx.reply(ctx.t("result.word-detail", result as any), {
     reply_markup: keyboard
       .text(ctx.t("button.prev"), `pageto:${result.defid}:prev`)
-      .text(ctx.t("button.transl"), `transl:${result.defid}`)
+      // .text(ctx.t("button.transl"), `transl:${result.defid}`)
       .text(ctx.t("button.next"), `pageto:${result.defid}:next`).row()
       .text(ctx.t("button.delete"), "delete"),
   });

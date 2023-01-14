@@ -49,7 +49,7 @@ composer.callbackQuery(/detail:(.+)/, async (ctx) => {
     ctx.t("result.word-detail", result as any),
     {
       reply_markup: keyboard
-        .text(ctx.t("button.transl"), `transl:${result?.defid}`),
+        // .text(ctx.t("button.transl"), `transl:${result?.defid}`),
     },
   );
 });
@@ -79,7 +79,7 @@ composer.callbackQuery(/pageto:([0-9]+):(prev|next)/, async (ctx) => {
     {
       reply_markup: new InlineKeyboard()
         .text(ctx.t("button.prev"), `pageto:${result.defid}:prev`)
-        .text(ctx.t("button.transl"), `transl:${result.defid}`)
+        // .text(ctx.t("button.transl"), `transl:${result.defid}`)
         .text(ctx.t("button.next"), `pageto:${result.defid}:next`).row()
         .text(ctx.t("button.delete"), "delete"),
     },
